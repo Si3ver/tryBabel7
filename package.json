@@ -1,0 +1,25 @@
+{
+  "name": "tb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "./node_modules/.bin/babel src --out-dir dist",
+    "start": "./node_modules/.bin/babel src --out-dir dist; node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/node": "^7.5.5",
+    "@babel/plugin-proposal-export-default-from": "^7.5.2",
+    "@babel/preset-env": "^7.5.5"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.4.4",
+    "core-js": "^3.2.1"
+  }
+}
